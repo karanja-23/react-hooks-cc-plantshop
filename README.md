@@ -1,150 +1,63 @@
-# Phase 2 Code Challenge: Plantsy
+# Plantsy code Challenge
+*****
+### Author : Hosea Karanja
 
-## Demo
+****
+## Project Description
+THis project include some features of the admin side of a plant store. Shows a display of all plants when the page loads, allows user to add a new plant to the page by submitting the form. Allows user to mark a plant as "sold out" or "in stock". Allows user to search for plants by their names and see a filtered list of plants. 
 
-Use this gif as an example of how the app should work.
 
-![Demo GIF](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-mock-code-challenge-plantshop/plantsy_demo.gif)
+******
 
-## Instructions
+## SCREENSHOTS
+- ![Screenshot 2023-03-10 at 3 18 17 PM](https://raw.githubusercontent.com/karanja-23/myImage2/refs/heads/main/plantsy.gif)
 
-Welcome to Plantsy! You've been tasked with building out some features for the
-admin side of a plant store. The designers have put together the components and
-CSS. Now it's up to you to bring the features to life by adding stateful logic
-as well as persisting data to the backend via our API.
 
-Your job will be to make our app work according to the user stories you will
-find the [Core Deliverables](#Core-Deliverables) section.
+********
+## SetUp Instruction
+### Requirements
+* [HTML](html.com)
+* [css](Framework URL)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
-## Setup
+### Getting Files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
 
-1. Run `npm install` in your terminal.
-2. Run `npm run server`. This will run your backend on port `6001`.
-3. In a new terminal, run `npm start`.
+## How To Run It
+>  Clone repository
 
-Make sure to open [http://localhost:6001/plants](http://localhost:6001/plants)
-in the browser to verify that your backend is working before you proceed!
+> run npm install
+>run npm run server
+> run npm start
+*****
+## Live Link
+Or you can access the web application directly via this [https://silver-duckanoo-4f0b15.netlify.app/]
+*****
+## Dependencies
 
-## Endpoints
+- json server
+- React
 
-The base URL for your backend is: `http://localhost:6001`
+*****
 
-## Core Deliverables
-
-As a user:
-
-1. When the app starts, I can see all plants.
-2. I can add a new plant to the page by submitting the form.
-3. I can mark a plant as "sold out".
-4. I can search for plants by their name and see a filtered list of plants.
-
-### Endpoints for Core Deliverables
-
-#### GET /plants
-
-Example Response:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Aloe",
-    "image": "./images/aloe.jpg",
-    "price": 15.99
-  },
-  {
-    "id": 2,
-    "name": "ZZ Plant",
-    "image": "./images/zz-plant.jpg",
-    "price": 25.98
-  }
-]
-```
-
-#### POST `/plants`
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "name": "string",
-  "image": "string",
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 15.99
-}
-```
-
-## Advanced Deliverables
-
-These deliverables are not required to pass the code challenge, but if you have
-the extra time, or even after the code challenge, they are a great way to
-stretch your skills.
-
-You'll have to add additional elements for these features. Feel free to style
-them however you see fit!
-
-> Note: If you are going to attempt these advanced deliverables, please be sure
-> to have a working commit with all the Core Deliverables first!
-
-As a user:
-
-1. I can update the price of a plant and still see the updated price after
-   refreshing the page.
-2. I can delete a plant and it is still gone when I refresh the page.
-
-### Endpoints for Advanced Deliverables
-
-#### PATCH /plants/:id
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 16.99
-}
-```
-
-#### DELETE /plants/:id
-
-Example Response:
-
-```json
-{}
-```
+## Technologies Used
+1. HTML
+2. CSS
+3. JavaScript
+4. Sementic-ui
+5.React
+*****
+## Contact Information
+* Email : karanja.mungai23@gmail.com
+*****
+## [License](LICENSE)
+MIT License
+Copyright (c) 2024 Hosea Karanja
