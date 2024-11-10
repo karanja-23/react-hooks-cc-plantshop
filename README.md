@@ -39,7 +39,7 @@ THis project include some features of the admin side of a plant store. Shows a d
 > run npm start
 *****
 ## Live Link
-Or you can access the web application directly via this [https://silver-duckanoo-4f0b15.netlify.app/]
+Or you can access the web application directly via this [https://react-hooks-cc-plantshop-kappa.vercel.app/]
 *****
 ## Dependencies
 
